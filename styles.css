@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("/Fonts/Raleway/static/Raleway-Medium.ttf") format("truetype")
+
+  }
+
+  @font-face {
+    font-family: "Raleway";
+    src: url("Fonts/Raleway/static/Raleway-Light.ttf") format("truetype")
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    header {
+      background-image: url("/Assets/HEADER.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 1em;
+      overflow-x: hidden;
+      font-family: 'Raleway', sans-serif;
+      height: 100vh;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .customlink {
+      color: white;
+      font-weight: bold;
+    }
+    
+
+    .logo {
+        width: 7em;
+    }
+
+    .missionobjective {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4em;
+      gap: 5em;
+    }
+
+    .mission {
+        width: 15em;
+    }
+
+    .objective {
+      font-size: 17px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .objective span {
+      font-weight: 400;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    #main {
+      height: 100vh;
+      background-color: #958977;
+      font-family: 'Raleway', sans-serif;
+      padding: 1em;
+      
+    }
+
+   h2 {
+      font-size: 1em;
+      text-align: center;
+      padding: 3em 3em 1.5em 3em;
+      font-weight: bold;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    #main p {
+      font-size: 24px;
+      padding: 0.5em 0.9em;
+      color: white;
+    }
+
+    #main p span {
+      font-style: italic;
+      font-weight: bold;
+    }
+
+     #gallery {
+      background-color: #958977;
+      height: 203vh;
+      /* acá si dejo 100vg me quedan fuera dos imagenes, deberia hacer imagenes mas pequeñas? */
+     }
+
+    .gallerydiv {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .gallery-item-caption h3 {
+      font-size: 16px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      margin-top: 0.5em;
+    }
+
+    #contact {
+      background-image: url(/Assets/reservation.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 30px;
+      height: 100vh;
+    }
+
+    #contact p {
+      font-size: 30px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    #contact p span {
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #958977;
+      height: 25vh;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    footer img {
+      width: 7em;
+    }
+
+    .socialmedia-icon {
+      width: 3em;
+      height: 3em;
+    }
+
+    @media (min-width: 992px) {
+      header, #main, #contact {
+        height: 100vh;
+      }
+    
+      #gallery {
+        height: 120vh;
+      }
+      header {
+        padding-top: 10px; 
+      }
+
+      .logo {
+        width: 150px;
+      }
+
+      .mission {
+        margin-top: 0;
+        width: 25em;
+      }
+    
+      .missionobjective {
+        margin-top: 5em; 
+      }
+      .objective {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 25px; 
+        padding: 2em 6em 2em 6em; 
+      }
+    
+      #main p {
+        font-size: 36px; 
+        padding: 0.2em 1.8em; 
+      }
+    
+      .gallerydiv {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 3.5em;
+
+      }
+    
+      .gallery-item-caption h3 {
+        font-size: 20px; 
+        margin-top: 1em; 
+      }
+    
+      #contact {
+        padding: 60px; 
+        height: 100vh; 
+      }
+    
+      #contact p {
+        font-size: 42px; 
+      }
+    
+      footer {
+        height: 15vh; 
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+      }
+    
+      footer img {
+        width: 10em; 
+        margin-left: 3em;
+      }
+    
+      .socialmedia {
+        margin-right: 3em;
+      }
+
+      .socialmedia-icon {
+        width: 3em; 
+        height: 3em; 
+      }
+    }
+
+
+
+   
+
+  
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Springs</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+         <!-- fixed-top deja la navbar fija pero el menu se despliega atras del contenido. No me estoy dando cuenta como cambiarlo. si agrego margin top va a quedar mucho espacio-->
+        <div class="container-fluid">
+          <a href="#">
+            <img class="logo" src="/Assets/logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active customlink" aria-current="page" href="header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link customlink" href="#main">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link customlink" href="#gallery">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link customlink" href="#contact">Reservation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>   
+
+      <div class="missionobjective">
+        <img class="mission" src="Assets/mission.svg" alt="relaxunwindandrejuvenate">
+        <p class="objective"><span>Serenity Springs:</span> The ultimate spa experience in Santa Monica.</p>
+      </div>
+      </header>
+
+      <div id="main">
+        <h2>ABOUT US</h2>
+        <p><span>At Serenity Springs,</span> we believe that everyone deserves a little pampering and relaxation. Our luxurious spa treatments are designed to soothe the mind, body, and soul, leaving you feeling rejuvenated and refreshed. From the moment you step through our doors, you'll feel a sense of peace and tranquility that will stay with you long after your visit.</p>
+      </div>
+
+      <section id="gallery">
+        <h2>OUR SERVICES</h2>
+        <div class="gallerydiv">
+          <div class="gallery-item">
+            <img src="/Assets/massagetherapy.jpg" alt="massagetherapy">
+            <div class="gallery-item-caption">
+              <h3>Massage Therapy</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="/Assets/antiagefacial.jpg" alt="antiagefacial">
+            <div class="gallery-item-caption">
+              <h3>Anti-Aging Facials</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="/Assets/bodytreatment.jpg" alt="bodytreatments">
+            <div class="gallery-item-caption">
+              <h3>Body Treatments</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="/Assets/wellnessservices.jpg" alt="wellnessservices">
+            <div class="gallery-item-caption">
+              <h3>Wellness Services</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div id="contact">
+        <h2>RESERVATION</h2>
+        <p>Ready to indulge in some much-needed relaxation? Call us today at <span>(310) 123-4567 </span>
+          or email <span>res@serenitys.com</span>
+          to schedule your appointment.</p>
+      </div>
+      
+      <footer>
+        <img src="/Assets/logo.svg" alt="logo">
+        <div class="socialmedia">
+        <a href="#"><img class="socialmedia-icon" src="/Assets/Instagram.svg" alt="Instagram"></a>
+        <a href="#"><img class="socialmedia-icon" src="/Assets/Twitter.svg" alt="Twitter"></a>
+        <a href="#"><img class="socialmedia-icon" src="/Assets/Facebook.svg" alt="fa"></a>
+        </div>
+      </footer>
+    <script src="/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
